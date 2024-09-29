@@ -82,6 +82,12 @@ let
       keys = ./keys/jtojnar;
     };
 
+    khaneliman = {
+      # lib.maintainers.khaneliman, https://github.com/khaneliman
+      trusted = true;
+      keys = ./keys/khaneliman;
+    };
+
     lewo = {
       trusted = true;
       keys = ./keys/lewo;
